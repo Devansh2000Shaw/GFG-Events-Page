@@ -1,0 +1,305 @@
+/* *:focus {
+   outline: none;
+} */
+.backgroundStatic {
+   background-image: url("img/swirlLiq.png");
+   background-size: cover;
+}
+.footer {
+   width: 100%;
+   min-height: 100vh;
+   overflow-x: hidden;
+   display: grid;
+   place-items: center;
+   z-index: 1;
+   background-image: url("img/swirl-liq-mono.png");
+   background-size: cover;
+   background-blend-mode: overlay;
+}
+/* Variable props */
+.FooterLanding {
+   background-color: rgb(22, 94, 52);
+}
+.FooterProjects {
+   background-color: rgb(48, 54, 141);
+}
+.FooterEvents {
+   background-color: rgb(17, 71, 73);
+}
+.FooterAboutUs {
+   background-color: rgb(134, 20, 58);
+}
+.gridContainer {
+   color: white;
+   font-size: 3rem;
+   width: 100%;
+   height: 100%;
+}
+
+.gridContainer {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: minmax(minmax(100px, 10vh), 200px) 1fr 1fr;
+   gap: 0px 0px;
+   grid-template-areas:
+      "WannaTalkToUs WannaTalkToUs WannaTalkToUs ."
+      "WriteToUs WriteToUs links links"
+      "WriteToUs WriteToUs FooterInfo FooterInfo";
+
+   backdrop-filter: blur(25px);
+   -webkit-backdrop-filter: blur(25px);
+}
+.WannaTalkToUs{
+   grid-area: wanna-talk-to-us;
+   display: flex;
+   align-items: center;
+   font-size: clamp(30px, 4vw, 70px);
+   padding-top: 100px;
+   font-family: Roboto;
+   font-weight: 600;
+   margin-left: 5vw;
+}
+
+/* Form Section starts */
+.WriteToUs {
+   grid-area: WriteToUs;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   margin-left: 5vw;
+}
+
+.WriteToUs form {
+   width: clamp(400px, 20vw, 800px);
+}
+#email,
+#message {
+   background-color: rgba(255, 255, 255, 0.2);
+   border: none;
+   color: #fefefe;
+
+   border-radius: 10px;
+   font-size: clamp(12px, 1.25vw, 22px);
+   font-family: "PT Sans", sans-serif;
+}
+
+#email:focus {
+   background-color: rgba(255, 255, 255, 0.4);
+   box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+#message:focus {
+   background-color: rgba(255, 255, 255, 0.4);
+   box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+#email::placeholder {
+   color: rgba(254, 254, 254, 0.75);
+   font-size: clamp(12px, 1.25vw, 22px);
+   font-family: "PT Sans", sans-serif;
+   font-style: italic;
+}
+#message::placeholder {
+   color: rgba(254, 254, 254, 0.75);
+   font-size: clamp(12px, 1.25vw, 22px);
+   font-family: "PT Sans", sans-serif;
+   font-style: italic;
+}
+
+#email {
+   width: 90%;
+   padding: 0.8rem;
+   margin: 1rem 0;
+}
+#message {
+   width: 90%;
+   height: clamp(170px, 15vw, 500px);
+   padding: 1rem;
+   margin: 1rem 0;
+
+   resize: none;
+}
+.sendBtnContainer {
+   width: 100%;
+   display: grid;
+   place-items: center;
+}
+.send {
+   width: 50%;
+   height: 2.5rem;
+   font-weight: 100;
+   font-family: "Roboto";
+   font-size: 1rem;
+   color: #fefefe;
+   background-color: rgba(255, 255, 255, 0.2);
+
+   border-style: none;
+   border-radius: 20px;
+   transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.send:hover {
+   background-color: rgba(255, 255, 255, 0.5);
+   transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+/* Form Section Ends */
+
+.links {
+   grid-area: links;
+   margin-right: 5vw;
+   margin-top: 10px;
+}
+.links .flexContainer {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: nowrap;
+
+   height: 100%;
+}
+.links .flexContainer li {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 20%;
+   height: 10vh;
+}
+.links .flexContainer li a i {
+   color: #fefefe;
+   background-color: rgba(255, 255, 255, 0);
+   font-size: clamp(30px, 5vw, 50px);
+
+   border-radius: 20px;
+   padding: 1vw;
+   transition: 0.3s ease-out;
+}
+.links .flexContainer li a i:hover {
+   padding: 1.5rem;
+   background-color: rgba(255, 255, 255, 0.3);
+   transition: 0.3s ease-out;
+}
+
+.FooterInfo {
+   grid-area: FooterInfo;
+   margin-right: 5vw;
+   font-size: clamp(12px, 1.25vw, 22px);
+}
+.description {
+   font-size: clamp(12px, 1.25vw, 22px);
+}
+.description p {
+   font-family: "PT Sans", sans-serif;
+}
+.description1 {
+   float: right;
+   margin-right: 2vw;
+   margin-left: 0;
+   text-align: right;
+   font-family: "PT Sans", sans-serif;
+   line-height: 2.2ch;
+   width: 230px;
+}
+.description2 {
+   float: right;
+   margin-right: 2vw;
+   text-align: right;
+   font-family: "PT Sans", sans-serif;
+   line-height: 2.2ch;
+   width: 280px;
+}
+.description3 {
+   float: right;
+   margin-right: 2vw;
+   text-align: right;
+   font-family: "PT Sans", sans-serif;
+   line-height: 2.2ch;
+   width: 280px;
+}
+.strong {
+   font-weight: 700;
+   font-size: 18px;
+   letter-spacing: 1pt;
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    ...;
+  } */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+   .gridContainer {
+      grid-template-rows: minmax(minmax(100px, 10vh), 200px) 1fr 1fr 1fr;
+      grid-template-areas:
+         "WannaTalkToUs WannaTalkToUs WannaTalkToUs WannaTalkToUs"
+         "WriteToUs WriteToUs WriteToUs WriteToUs"
+         "links links links links"
+         "FooterInfo FooterInfo FooterInfo FooterInfo";
+   }
+   .WannaTalkToUs {
+      padding-top: 100px;
+      margin: 1rem;
+   }
+   .WriteToUs{
+      justify-content: center;
+   }
+   #email,
+   #message {
+      margin: 0.5vw 0;
+   }
+
+   .description1 {
+      float: right;
+      margin-right: 2vw;
+      margin-left: 0;
+      text-align: right;
+      font-family: "PT Sans", sans-serif;
+      line-height: 2.2ch;
+      width: 250px;
+      margin-top: 30px;
+   }
+   .description2 {
+      float: right;
+      margin-right: 2vw;
+      text-align: right;
+      font-family: "PT Sans", sans-serif;
+      line-height: 2.2ch;
+      width: 100px;
+   }
+   .description3 {
+      float: right;
+      margin-right: 2vw;
+      text-align: right;
+      font-family: "PT Sans", sans-serif;
+      line-height: 2.2ch;
+      width: 200px;
+      margin-top: 30px;
+   }
+}
+@media only screen and (max-width: 800px) {
+   .gridContainer {
+      grid-template-rows: minmax(minmax(100px, 10vh), 200px) 1fr 1fr 1fr;
+      grid-template-areas:
+         "WannaTalkToUs WannaTalkToUs WannaTalkToUs WannaTalkToUs"
+         "WriteToUs WriteToUs WriteToUs WriteToUs"
+         "links links links links"
+         "FooterInfo FooterInfo FooterInfo FooterInfo";
+   }
+   .WannaTalkToUs{
+      padding-top: 20%;
+      margin: 1rem;
+      justify-content: flex-start;
+      margin-left: 20%;
+   }
+   .WriteToUs{
+      justify-content: center;
+   }
+   #email,
+   #message {
+      margin: 0.5rem 0;
+   }
+}
+@media only screen and (max-width: 400px) {
+   .description2 {
+      margin-top: 29px;
+   }
+}
