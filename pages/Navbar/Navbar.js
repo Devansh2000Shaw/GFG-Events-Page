@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './resources/logo-3.svg';
+import Image from 'next/image';
 
 // import { Toggle } from '../ToggleSwitch'
 

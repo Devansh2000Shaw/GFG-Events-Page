@@ -78,7 +78,7 @@ export default class PastEvents extends Component {
                         <button className="youtube-btn">
                            <a href="https://www.youtube.com/watch?v=WaVfNalbTg4" target="_blank" rel="noopener noreferrer">
                               <div className="hover-bg"></div>
-                              <FontAwesomeIcon icon={faYoutube}/>
+                              <FontAwesomeIcon icon={faYoutube} className="youtube-icon" style={{fontSize: "30px"}}/>
                               <h5>Watch on YouTube</h5>
                            </a>
                         </button>
@@ -99,7 +99,7 @@ export default class PastEvents extends Component {
                         <button className="otherEvent-btn">
                            <a href="https://www.codechef.com/RUSH2021   " target="_blank" rel="noopener noreferrer">
                               <div className="hover-bg"></div>
-                              <FontAwesomeIcon icon={faCode}/>
+                              <FontAwesomeIcon icon={faCode} className = "otherEvent-icon" style={{fontSize: "26px"}}/>
                               <h5>View Event</h5>
                            </a>
                         </button>
@@ -121,7 +121,7 @@ export default class PastEvents extends Component {
                         <button className="youtube-btn">
                            <a href="https://www.youtube.com/watch?v=I6Q1v3D4gyw&t=1195s" target="_blank" rel="noopener noreferrer">
                               <div className="hover-bg"></div>
-                              <FontAwesomeIcon icon={faYoutube}/>
+                              <FontAwesomeIcon icon={faYoutube} className="youtube-icon" style={{fontSize: "30px"}}/>
                               <h5>Watch on YouTube</h5>
                            </a>
                         </button>
@@ -143,7 +143,7 @@ export default class PastEvents extends Component {
                         <button className="youtube-btn">
                            <a href="https://www.youtube.com/watch?v=w1Fv5JkyI8g" target="_blank" rel="noopener noreferrer">
                               <div className="hover-bg"></div>
-                              <FontAwesomeIcon icon={faYoutube}/>
+                              <FontAwesomeIcon icon={faYoutube} className="youtube-icon" style={{fontSize: "30px"}}/>
                               <h5>Watch on YouTube</h5>
                            </a>
                         </button>
@@ -164,7 +164,7 @@ export default class PastEvents extends Component {
                         <button className="otherEvent-btn">
                            <a href="https://www.hackerearth.com/challenges/college/CodeRush1_1/problems/" target="_blank" rel="noopener noreferrer">
                               <div className="hover-bg"></div>
-                              <FontAwesomeIcon icon={faCode}/>
+                              <FontAwesomeIcon icon={faCode} className = "otherEvent-icon" style={{fontSize: "26px"}}/>
                               <h5>View Event</h5>
                            </a>
                         </button>
@@ -185,7 +185,7 @@ export default class PastEvents extends Component {
                         <button className="otherEvent-btn">
                            <a href="https://www.codechef.com/CRSH2020" target="_blank" rel="noopener noreferrer">
                               <div className="hover-bg"></div>
-                              <FontAwesomeIcon icon={faCode}/>
+                              <FontAwesomeIcon icon={faCode} className = "otherEvent-icon" style={{fontSize: "26px"}}/>
                               <h5>View Event</h5>
                            </a>
                         </button>

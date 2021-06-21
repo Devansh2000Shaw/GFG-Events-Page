@@ -13,6 +13,25 @@
    font-weight: 600;
    line-height: 37px;
 }
+#register_button {
+   margin-top: 3rem;
+   text-decoration: none;
+   padding: 12px 15px;
+   font-size: 17px;
+   background-color: #ffc107;
+   border-radius: 20px;
+   text-align: center;
+   color: black;
+   font-weight: 600;
+   float: right;
+   transition: 0.6s ease;
+   z-index: 3;
+   position: relative;
+}
+#register_button:hover {
+   background-color: #eeb200;
+   box-shadow: 4px 4px 8px gray;
+}
 #event-slider-main
    .slick-slider
    .slick-list
@@ -184,6 +203,7 @@
 
 .event .flex-container .youtube-btn:hover a .youtube-icon {
    color: #fefefe;
+   font-size: 30px;
    transition: 0.5s ease-in-out;
 }
 .event .flex-container .youtube-btn:hover {
@@ -252,6 +272,7 @@
 
 .event .flex-container .otherEvent-btn:hover a .otherEvent-icon {
    color: #fefefe;
+   font-size: 30px;
    transition: 0.5s ease-in-out;
 }
 .event .flex-container .otherEvent-btn:hover {
