@@ -147,7 +147,8 @@
       font-size: 1rem;
       color: #fefefe;
       background-color: rgba(255, 255, 255, 0.2);
-   
+      margin-right: 8%;
+      margin-top: -4%;
       border-style: none;
       border-radius: 20px;
       transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
@@ -189,7 +190,7 @@
       transition: 0.3s ease-out;
    }
    .links .flex-container li a:hover{
-      padding: 1.5rem;
+      padding: 1.2rem 1.6rem 1.2rem;
       background-color: rgba(255, 255, 255, 0.3);
       transition: 0.3s ease-out;
    }
@@ -231,7 +232,7 @@
       width: 280px;
    }
    .strong {
-      font-weight: 700;
+      font-weight: 600;
       font-size: 18px;
       letter-spacing: 1pt;
    }

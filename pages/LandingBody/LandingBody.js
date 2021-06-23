@@ -24,8 +24,9 @@ class LandingBody extends Component {
                 <h1 id="landing_intro_title">One for All, All for One</h1>
                 <div id="landing_intro_line"></div>
                 <div className="LI_content">
-                    <div className="LI_image"></div>
-                    {/* <img src = {landingpage} className="LI_image" style = {{marginLeft: "7%"}}/> */}
+                    <div className="LI_image">
+                    <img src = {landingpage} style = {{height: "300px"}}/>
+                    </div>
                     <div className="LI_context">
                     We are a group of enthusiasts trying to spread the idea of One for All and All for One.
                     We inspire students to practice coding, get 
@@ -38,8 +39,9 @@ class LandingBody extends Component {
           <div id="landing_line_Event"></div>
           <div id="event">
             <div id="event_img">
-                <div className="event_img_display"></div>
-                {/* <img src = {knack} className="event_img_display"/> */}
+                <div className="event_img_display">
+                <img src = {knack} className="event_img_display" />
+                </div>
             </div>
               <div id="event_context">
                   <div id="event_content">
@@ -64,8 +66,9 @@ class LandingBody extends Component {
           <div class="project_card">
                   <a href="/projects" class="project_card">
                   <div class="project_img">
-                    <div id="project_img_display1"></div>
-                    {/* <img src = {display1} id = "project_img_display1"/> */}
+                    <div id="project_img_display1">
+                    <img src = {display1} id="project_img_display1"/>
+                    </div>
                   </div>
                   </a>
                   <div class="project_title">The Geek Bot</div>
@@ -78,8 +81,9 @@ class LandingBody extends Component {
               <div class="project_card">
                   <a href="/projects" class="project_card">
                   <div class="project_img">
-                    <div id="project_img_display2"></div>
-                    {/* <img src = {display2} id = "project_img_display2"/> */}
+                    <div id="project_img_display2">
+                    <img src = {display2} id = "project_img_display2"/>
+                    </div>
                   </div>
                   </a>
                   <div class="project_title">GFG KIIT Website</div>

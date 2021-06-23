@@ -7,6 +7,7 @@
 .landing_intro {
   width: 100%;
   float: left;
+  margin-bottom: 5%;
 }
 #landing_intro_title {
   margin-left: 8%;
@@ -34,9 +35,9 @@
 .LI_image {
   float: left;
   width: 42%;
-  height: 380px;
+  /* height: 380px; */
   margin-left: 7%;
-  background-image: url("./img/landingpage.png");
+  /* background-image: url("./img/landingpage.png"); */
   background-position: cover;
   background-repeat: no-repeat;
   background-size: contain;
@@ -61,7 +62,7 @@
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 40px;
-  margin-top: 50px;
+  margin-top: 40px;
   font-family: sans-serif;
   position: relative;
   float: left;
@@ -105,9 +106,9 @@
   float: left;
 }
 .event_img_display {
-  width: 100%;
+  width: 85%;
   height: 350px;
-  background-image: url("./img/knack.png");
+  /* background-image: url("./img/knack.png"); */
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -119,7 +120,7 @@
 #event_context {
   width: 54%;
   float: left;
-  padding: 3% 4% 5% 2%;
+  padding: 1% 4% 5% 8%;
   text-align: right;
 }
 #event_content {
@@ -138,7 +139,7 @@
 #event_desc {
   font-size: 18px;
   padding-right: 15px;
-  font-weight: 100;
+  font-weight: 400;
   float: right;
   line-height: 1.5rem;
 }
@@ -227,7 +228,7 @@
 #project_img_display1 {
   width: 100%;
   height: 180px;
-  background-image: url("./img/geekbot.png");
+  /* background-image: url("./img/geekbot.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -237,7 +238,7 @@
 #project_img_display2 {
   width: 100%;
   height: 180px;
-  background-image: url("./img/GFGKIITWebsitePoster.png");
+  /* background-image: url("./img/GFGKIITWebsitePoster.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,7 +247,7 @@
 #project_img_display3 {
   width: 100%;
   height: 180px;
-  background-image: url("./img/hearme.jfif");
+  /* background-image: url("./img/hearme.jfif"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,11 +264,12 @@
 }
 .project_desc {
   float: left;
-  font-weight: 500;
+  font-weight: 400;
   padding: 5px;
   text-align: center;
   font-size: 16px;
-  font-weight: 100 !important;
+  line-height: 16px;
+  /* font-weight: 100 !important; */
 }
 
 /* landing page style  */
@@ -324,8 +326,9 @@
   }
   #event_img,
   .LI_image {
-    width: 92%;
+    width: 100%;
     margin-left: auto;
+    margin-bottom: 10%;
     padding: 5% 4% 0% 4%;
   }
   #event_context,
@@ -333,6 +336,7 @@
     width: 96%;
     padding: 0%;
     margin-bottom: 50px;
+    border: 0px;
   }
   #event_button {
     margin-top: 1rem;
@@ -460,6 +464,7 @@
   }
   .event_img_display {
     height: 250px;
+    width: 100%;
     margin-bottom: 20px;
     background-position: center;
   }
