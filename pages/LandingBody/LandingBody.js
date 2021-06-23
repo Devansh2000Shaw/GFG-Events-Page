@@ -1,7 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Background from '../Background';
 import {Helmet} from 'react-helmet';
 import FooterLanding from '../Footer/Footer';
+import display2 from "./img/GFGKIITWebsitePoster.png";
+import display1 from "./img/geekbot.png";
+import knack from "./img/knack.png";
+import landingpage from "./img/landingpage.png"
 
 class LandingBody extends Component {
    render() {
@@ -21,6 +25,7 @@ class LandingBody extends Component {
                 <div id="landing_intro_line"></div>
                 <div className="LI_content">
                     <div className="LI_image"></div>
+                    {/* <img src = {landingpage} className="LI_image" style = {{marginLeft: "7%"}}/> */}
                     <div className="LI_context">
                     We are a group of enthusiasts trying to spread the idea of One for All and All for One.
                     We inspire students to practice coding, get 
@@ -34,6 +39,7 @@ class LandingBody extends Component {
           <div id="event">
             <div id="event_img">
                 <div className="event_img_display"></div>
+                {/* <img src = {knack} className="event_img_display"/> */}
             </div>
               <div id="event_context">
                   <div id="event_content">
@@ -43,7 +49,7 @@ class LandingBody extends Component {
                             <p>Hey Geeks,</p>
                             <p>GFG-KIIT, with other GFG chapters across India, has come up with a super cool innovative event: “Geek-i-Knack”.</p><br></br>
                             <p>Geek-i-Knack is a 3-day full-fledged Placement Interview-Drive (from Coding round to HR interview), designed just for Computer Science Geeks, to give them an authentic aid for the much-feared company placements, with help of industry experts, which might ultimately help them in achieving their utmost goal: To bag a dream job in FAANG.</p><br></br>
-                            <p><b class="event_bold">Use Invitation Code:</b> GFGO21AWG</p>
+                            <p><b className="event_bold">Use Invitation Code:</b> GFGO21AWG</p>
                           <p class="event_space"><b class="event_bold">DATE :</b> 12-03-2021 to 14-03-2021 </p>
                           <p class="event_space"><b class="event_bold">TIME :</b> 5:00 PM </p>
                       </div>
@@ -59,6 +65,7 @@ class LandingBody extends Component {
                   <a href="/projects" class="project_card">
                   <div class="project_img">
                     <div id="project_img_display1"></div>
+                    {/* <img src = {display1} id = "project_img_display1"/> */}
                   </div>
                   </a>
                   <div class="project_title">The Geek Bot</div>
@@ -72,6 +79,7 @@ class LandingBody extends Component {
                   <a href="/projects" class="project_card">
                   <div class="project_img">
                     <div id="project_img_display2"></div>
+                    {/* <img src = {display2} id = "project_img_display2"/> */}
                   </div>
                   </a>
                   <div class="project_title">GFG KIIT Website</div>
@@ -120,33 +128,33 @@ class LandingBody extends Component {
                 <span>Designers</span> <span class="filled">Developers</span>
                 <span>Programmers</span> <span>Creators</span>
                 <span>Enthusiasts</span> <span>Designers</span>
-                <span className="filled">Developers</span> <span>Programmers</span>
+                <span class="filled">Developers</span> <span>Programmers</span>
                 <span>Creators</span> <span>Enthusiasts</span>
                 </div>
             </div>
             <div class="scroll programmers org">
                 <div>
                 <span>Designers</span> <span>Developers</span>
-                <span className="filled">Programmers</span> <span>Creators</span>
+                <span class="filled">Programmers</span> <span>Creators</span>
                 <span>Enthusiasts</span> <span>Designers</span>
                 <span>Developers</span> <span class="filled">Programmers</span>
                 <span>Creators</span> <span>Enthusiasts</span>
                 </div>
                 <div>
                 <span>Designers</span> <span>Developers</span>
-                <span className="filled">Programmers</span> <span>Creators</span>
+                <span class="filled">Programmers</span> <span>Creators</span>
                 <span>Enthusiasts</span> <span>Designers</span>
                 <span>Developers</span> <span class="filled">Programmers</span>
                 <span>Creators</span> <span>Enthusiasts</span>
                 </div>
             </div>
-            <div className="scroll creators alt">
+            <div class="scroll creators alt">
                 <div>
                 <span>Designers</span> <span>Developers</span>
                 <span>Programmers</span> <span class="filled">Creators</span>
                 <span>Enthusiasts</span> <span>Designers</span>
                 <span>Developers</span> <span>Programmers</span>
-                <span className="filled">Creators</span> <span>Enthusiasts</span>
+                <span class="filled">Creators</span> <span>Enthusiasts</span>
                 </div>
                 <div>
                 <span>Designers</span> <span>Developers</span>
@@ -156,7 +164,7 @@ class LandingBody extends Component {
                 <span class="filled">Creators</span> <span>Enthusiasts</span>
                 </div>
             </div>
-            <div className="scroll enthusiasts org">
+            <div class="scroll enthusiasts org">
                 <div>
                 <span>Designers</span> <span>Developers</span>
                 <span>Programmers</span> <span>Creators</span>

@@ -23,7 +23,7 @@ function Events() {
             <div style={{fontWeight: "600", fontSize: "35px"}}>Events</div><br></br>
             Events are what make a club flourish, connect people, and provide an individual the opportunity to assert their identities.
          </div>
-         {/* <PastEvents/> */}
+         <PastEvents/>
          <FooterLanding bgColor="footer-events"/>
       </div>
    )
